@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Practice</title>
+        <link rel="stylesheet" href="signup.css">
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    </head>
+    
+<body>
+    <section id="home">
+
+        <div class="logo">bingetv</div>
+
+        <img src="back1.jpg" class="imgbg"> 
+         
+        <div class="box">
+            <form id='registration' name='form1'  class="sign-form"  method='post' action='registration.php' onsubmit="return fill()">
+            <h3>Create an account to start your membership.</h3>
+            <input type="email" name="Email" class="email" placeholder="Email Id">
+            <input type="password" name="Password" class="password"  placeholder="Add a password">
+            <input type="text" class="username" placeholder="Fullname" name="username">
+           <input type="number" class="email" placeholder="Phone Number" name="number">
+            
+           <input type="text" name="street" class="email" placeholder="Street Address">
+            <input type="text" name="city" class="email"  placeholder="City">
+            <input type="text" class="email" placeholder="State" name="state">
+            <input type="number" class="email" placeholder="Pincode" name="pincode"><br><br>
+            
+            <table border="1px"  class="email" style="width: 310px; text-align: center;" > 
+                <tr style="height: 60px;"><th>Pick your plans..</th> </tr>
+                  
+                <tr style="height: 60px;">  <td><input type="radio" name="plan" value="Basic" />Basic - INR100</td>  </tr>
+                <tr style="height: 60px;">  
+                    <td><input type="radio" name="plan" value="Standard"/>Standard - INR300
+                    </td>
+                </tr>  
+                <tr style="height: 60px;">  
+             <td><input type="radio" name="plan" value="Premium"/>Premium - INR500</td></tr>  
+                 </tr>
+        </table>
+            <button type="submit" class="button1">Continue</button>
+            <button type="submit" class="button1"><a href="login.html">Sign-in</a></button><br>
+            <p>Already have an account?</p>
+            </form>
+
+        </div>
+   </section>
+</body>
+</html>

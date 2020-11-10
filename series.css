@@ -1,0 +1,132 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: rgb(35, 35,35);
+}
+
+.navbar{
+    height: 130px;
+    width: 100%;
+    background: #000;
+    margin-top: -10px;
+}
+h5{
+    position: absolute;
+    left:18%;
+    top: 55px;
+    font-size: 15px;
+    color: #fff;
+    word-spacing: 10px;
+   margin-left: 5px;
+}
+.head h1{
+    color: red;
+    font-size: 75px;
+    font-style: bold;
+    top: -40px;
+    left: 10px;
+    position: absolute;
+    padding-bottom: 30px;
+    font-family: impact;
+    display: block;
+    perspective: 1000px;
+    perspective-origin: 50% 0;
+    transform-origin: 0 0;
+    transform: scaleX(80) rotate(89.5deg);
+}
+
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    word-spacing: 30px;
+}
+
+
+.menu a{
+    color: #fff;
+    text-decoration: none;
+    word-spacing: 30px;
+}
+
+.menu2{
+    position: absolute;
+    left: 80%;
+    top: 35px;
+    font-size: 30px;
+    word-spacing: 15px;
+}
+
+
+.menu2{
+    color: #fff;
+    text-decoration: none;
+    word-spacing: 15px;
+    margin-left: 10px;
+}
+
+
+table{
+    margin-left:20px;
+   
+}
+tr{
+    margin-left: 10px;
+   
+}
+
+h6{
+    color:#E83309;
+    margin-left: 40px;
+    margin-top: -40px;
+}
+
+img{
+    margin-left: 5px;
+    width: 20%;
+    margin:7px 10px 0px 40px;
+   
+}
+
+
+h1{
+    color:rgb(241, 10, 10);
+    margin-left: 40px;
+}
+
+.first{
+    margin-left:40px;
+    padding-top: 100px;
+    
+}
+
+
+h4{
+    color:white;
+    margin-right:140px ;
+ 
+ }
+
+ .item {
+  
+    transition: 1s;
+   
+
+}
+.item:hover{
+transform:scale(1.3)
+
+}
+
+.item1 {
+  
+    transition: 1s;
+    
+    
+
+}
+.item1:hover{
+transform:scale(1.3)
+
+
+}
